@@ -9,8 +9,8 @@ nav {
               transform: rotateX(0);
     }
     100% {
-      -webkit-transform: rotateX(-180deg);
-              transform: rotateX(-180deg);
+      -webkit-transform: rotateX(-360deg);
+              transform: rotateX(-360deg);
     }
   }
   @keyframes flip-horizontal-bottom {
@@ -19,7 +19,7 @@ nav {
               transform: rotateX(0);
     }
     100% {
-      -webkit-transform: rotateX(-180deg);
-              transform: rotateX(-180deg);
+      -webkit-transform: rotateX(-360deg);
+              transform: rotateX(-360deg);
     }
   }
