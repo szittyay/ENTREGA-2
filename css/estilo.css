@@ -70,4 +70,11 @@ label {
   100% {
     box-shadow: 0 0 20px 0px rgba(0, 0, 0, 0.35);
   }
+}
+.card {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: bisque;
+  padding: 1rem;
 }/*# sourceMappingURL=estilo.css.map */

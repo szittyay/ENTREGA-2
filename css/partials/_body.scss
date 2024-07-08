@@ -50,4 +50,20 @@ label {
               box-shadow: 0 0 20px 0px rgba(0, 0, 0, 0.35);
     }
   }
+
+  @mixin flex ($direction, $justify, $align) {
+    display: flex;
+    flex-direction: $direction;
+    justify-content: $justify;
+    align-items: $align;
+  }
+
+  @mixin flex-center-center {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: bisque;
+    padding: 1rem;
+  }
+  .card {@include flex-center-center()}
   
